@@ -7,7 +7,7 @@ package com.teknologiinformasi.restapi.order.model;
 // import jakarta.persistence.GeneratedValue;
 // import jakarta.persistence.GenerationType;
 
-
+//model produk berperan sebagai dto (data transfer object)
 // @Entity
 // @Table(name = "produk")
 public class Produk {
@@ -16,6 +16,8 @@ public class Produk {
 //    @Id
 //    @GeneratedValue(strategy = GenerationType.IDENTITY)
    private Long id;
+
+
    private String nama;
    private Double harga;
    private String deskripsi;
